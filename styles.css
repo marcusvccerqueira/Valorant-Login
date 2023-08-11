@@ -9,7 +9,7 @@
     margin: 30px auto;
     width: 1500px;
     height: 866px;
-    border: 1px solid black;
+    box-shadow: 0 0 10px gray;
 }
 .logo {
     text-align: center;
@@ -125,10 +125,19 @@
 }
 .loginArrow {
     margin: 70px 0;
+}
+.loginArrow button {
     font-size: 26px;
-    padding: 18%;
-    border: 2px solid rgb(226, 226, 226);
-    border-radius: 35%;
+    border: 2px solid lightgray;
+    border-radius: 30%;
+    padding: 10px 20px;
+    color: lightgray;
+    background-color: inherit;
+}
+.loginArrow button:hover {
+    background-color: indianred;
+    border: none;
+    cursor: pointer;
 }
 .footer a {
     color: inherit;
