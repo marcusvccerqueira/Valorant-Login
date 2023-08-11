@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.container {
+    display: flex;
+    margin: 30px auto;
+    width: 1500px;
+    height: 866px;
+    border: 1px solid black;
+}
+.logo {
+    text-align: center;
+    margin: 60px;
+}
+#logo {
+    width: 200px;
+}
+.main h1 {
+    font-weight: 600;
+    text-align: center;
+}
+.main {
+    background-color: rgb(252, 252, 252);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.signIn {
+    position: relative;
+}
+.main .signIn input {
+    display: block;
+    width: min(315px, 400px);
+    height: 50px;
+    margin: 15px 0;
+    background-color: lightgray;
+    border: none;
+    border-radius: 2px;
+
+}
+.signIn input:focus {
+    border: 1px solid black;
+    background: white;
+}
+.signIn input::placeholder {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px 10px 0;
+    transition: top 0.3s, left 0.3s;
+    pointer-events: none;
+    top: 10px;
+    left: 10px;
+    
+}
+.signIn input:focus::placeholder{
+    position: relative;
+    top: -15px;
+    left: -10px;
+    font-size: 10px;
+    color: black;
+}
+.signIn input:focus::placeholder {
+    top: -15px;
+    left: -10px;
+    font-size: 10px;
+    color: black;
+}
+.loginMethod {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 20px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px lightgray;
+}
+.face {
+    background-color: rgb(27, 121, 199);
+}
+.face:hover {
+    background-color: rgb(16, 109, 185);
+}
+.google {
+    background-color: white;
+}
+.google:hover {
+    background-color: rgb(247, 245, 245);
+}
+.apple {
+    background-color: black;
+}
+.xbox {
+    background-color: green;
+}
+.xbox:hover {
+    background-color: rgb(0, 115, 0);
+}
+.keepLogin {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.keepLogin input {
+    margin: 0 5px 0 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    text-align: center;
+    color: lightgray;
+
+}
+.loginArrow {
+    margin: 70px 0;
+    font-size: 26px;
+    padding: 18%;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 35%;
+}
+.footer a {
+    color: inherit;
+    font-size: 0.6rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+.footer .version {
+    position: relative;
+    right: -120px;
+    top: -13px;
+}
+.footer span {
+    margin-top: -10px;
+}
+.footer span:hover {
+    color:black;
+}
+.imgLogin {
+    width: 75%;
+    background-image: url(https://pbs.twimg.com/media/F1WTiiUaEAAWl1s?format=jpg&name=4096x4096);
+    background-position: center right;
+    background-size: cover;
+}
