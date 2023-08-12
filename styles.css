@@ -125,6 +125,7 @@
 }
 .loginArrow {
     margin: 70px 0;
+    text-align: center;
 }
 .loginArrow button {
     font-size: 26px;
